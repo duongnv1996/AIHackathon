@@ -12,7 +12,7 @@
     <com.flurgle.camerakit.CameraView
         android:id="@+id/camera"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:adjustViewBounds="true"
         camerakit:ckFacing="back"
         camerakit:ckFlash="off"
@@ -28,7 +28,7 @@
         android:id="@+id/take_picture"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp"
+        app:srcCompat="@drawable/ic_camera_black_24dp"
         android:tint="#fff"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="30dp"
