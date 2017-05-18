@@ -12,7 +12,7 @@ public class ApiUtils {
     Retrofit retrofit;
     private ApiUtils(){
         retrofit= new Retrofit.Builder()
-                .baseUrl("http://192.168.1.28:2020/")
+                .baseUrl("http://192.168.1.212:2020/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     };
